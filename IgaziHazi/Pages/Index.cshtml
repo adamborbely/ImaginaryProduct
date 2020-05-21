@@ -1,0 +1,28 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Maris Mosodioi!</h1>
+    &nbsp;
+    <p>Ha erdeklik a mosodiok <a href="https://hu.wikipedia.org/wiki/Mos%C3%B3di%C3%B3fa">ide kattintson!</a></p>
+    <a href="https://www.youtube.com/watch?v=6NwSwz2F-Vw">
+        <img src="mosodio_1-hd.jpg" alt="Alternate Text" width="400" height="200" />
+    </a>
+    &nbsp;
+    <h4 class="display" align="left">Elorendeles: </h4>
+    &nbsp;
+    <form method="post" align="justify">
+        <label for="email">
+            E-mail:
+            <input type="text"
+                   name="email"
+                   value="pl@mosodio.hu"
+                   required />
+        </label><button>Feliratkozas</button>
+    </form>
+</div>
+
+
